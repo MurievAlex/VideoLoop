@@ -1,20 +1,26 @@
-//
-//  ViewController.swift
-//  BackgroundVideoLoop
-//
-//  Created by Serg Fedotov on 12.05.2020.
-//  Copyright © 2020 Sergey Fedotov. All rights reserved.
-//
-
 import UIKit
+import AVKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "background", ofType: "mp4")!))
+        
+        let Layer = AVPlayerLayer(player: player)
+        Layer.frame = self.view.frame
+        Layer.videoGravity = .resizeAspectFill
+        self.view.layer.addSublayer(Layer)
+        
+        player.play(); player.actionAtItemEnd = .none
+        
+        NotificationCenter.default.addObserver(self,
+        selector: #selector(Repeater(snitch:)),
+        name: .AVPlayerItemDidPlayToEndTime,
+        object: player.currentItem)
     }
-
-
+    @objc func Repeater(snitch: Notification) {
+        let X: AVPlayerItem = snitch.object as! AVPlayerItem
+        X.seek(to: .zero) { _ in }
+    }
 }
-

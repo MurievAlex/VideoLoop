@@ -13,7 +13,7 @@
 		FAA8E578246AE50B00D6D588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8E576246AE50B00D6D588 /* Main.storyboard */; };
 		FAA8E57A246AE50B00D6D588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8E579246AE50B00D6D588 /* Assets.xcassets */; };
 		FAA8E57D246AE50B00D6D588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8E57B246AE50B00D6D588 /* LaunchScreen.storyboard */; };
-		FAA8E585246AE6CB00D6D588 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAA8E584246AE6CB00D6D588 /* background.mp4 */; };
+		FAEC0C57246B6D3600951B31 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAEC0C56246B6D3600951B31 /* background.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		FAA8E579246AE50B00D6D588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA8E57C246AE50B00D6D588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA8E57E246AE50B00D6D588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAA8E584246AE6CB00D6D588 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
+		FAEC0C56246B6D3600951B31 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		FAA8E56F246AE50B00D6D588 /* BackgroundVideoLoop */ = {
 			isa = PBXGroup;
 			children = (
-				FAA8E584246AE6CB00D6D588 /* background.mp4 */,
+				FAEC0C56246B6D3600951B31 /* background.mp4 */,
 				FAA8E570246AE50B00D6D588 /* AppDelegate.swift */,
 				FAA8E572246AE50B00D6D588 /* SceneDelegate.swift */,
 				FAA8E574246AE50B00D6D588 /* ViewController.swift */,
@@ -128,7 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA8E585246AE6CB00D6D588 /* background.mp4 in Resources */,
+				FAEC0C57246B6D3600951B31 /* background.mp4 in Resources */,
 				FAA8E57D246AE50B00D6D588 /* LaunchScreen.storyboard in Resources */,
 				FAA8E57A246AE50B00D6D588 /* Assets.xcassets in Resources */,
 				FAA8E578246AE50B00D6D588 /* Main.storyboard in Resources */,

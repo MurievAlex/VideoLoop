@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         player.play(); player.actionAtItemEnd = .none
         
         NotificationCenter.default.addObserver(self,
-        selector: #selector(Repeater(snitch:)),
+        selector: #selector(self.Repeater(snitch:)),
         name: .AVPlayerItemDidPlayToEndTime,
         object: player.currentItem)
     }

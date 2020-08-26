@@ -1,1 +1,1 @@
-![](https://github.com/AsahiOcean/BackgroundVideoLoop/raw/master/example.gif)
+![](https://media.giphy.com/media/kHI17XTmsJfsZPj753/source.gif)

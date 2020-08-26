@@ -1,2 +1,1 @@
-# Превью:
-![alt-текст](https://github.com/AsahiOcean/BackgroundVideoLoop/blob/master/example.gif "")
+![](https://media.giphy.com/media/XBL77SkKMiGLCMiTcf/source.gif)
